@@ -1,0 +1,17 @@
+.main {
+  min-height: 100dvh;
+  padding: var(--space-4) var(--space-4) calc(var(--nav-height) + var(--space-4) + env(safe-area-inset-bottom));
+}
+
+@media (min-width: 640px) {
+  .main {
+    padding: calc(var(--nav-height) + var(--space-4)) var(--space-5) var(--space-5);
+  }
+}
+
+@media (min-width: 1024px) {
+  .main {
+    margin-left: var(--sidebar-width);
+    padding: var(--space-6) var(--space-7);
+  }
+}

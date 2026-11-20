@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: 0 auto var(--space-3);
+}
+
+.brand {
+  font: 600 32px var(--font-display);
+  color: var(--color-primary);
+}
+
+.gear {
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--color-sunken);
+  color: var(--color-text);
+  transition: background var(--duration-base) var(--ease), color var(--duration-base) var(--ease);
+}
+
+.gear:hover,
+.active {
+  background: var(--color-primary);
+  color: #fff;
+}
+
+@media (min-width: 640px) {
+  .header {
+    justify-content: flex-end;
+  }
+
+  .brand {
+    display: none;
+  }
+}

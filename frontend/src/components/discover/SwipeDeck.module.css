@@ -1,0 +1,20 @@
+.deck {
+  position: relative;
+  width: min(100%, 420px, calc((100dvh - 360px) * 0.8));
+  min-width: 260px;
+  aspect-ratio: 4 / 5;
+}
+
+.behind {
+  position: absolute;
+  inset: 0;
+  transform: scale(0.94) translateY(14px);
+  filter: brightness(0.96);
+  pointer-events: none;
+  transition: transform 300ms var(--ease), filter 300ms var(--ease);
+}
+
+.rising {
+  transform: none;
+  filter: none;
+}

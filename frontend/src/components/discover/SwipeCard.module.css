@@ -1,0 +1,38 @@
+.card {
+  position: absolute;
+  inset: 0;
+  cursor: grab;
+  touch-action: pan-y;
+  user-select: none;
+  transition: transform 300ms var(--ease), opacity 300ms var(--ease);
+}
+
+.dragging {
+  cursor: grabbing;
+  transition: none;
+}
+
+.stamp {
+  position: absolute;
+  top: var(--space-5);
+  padding: var(--space-1) var(--space-3);
+  border: 3px solid #fff;
+  border-radius: var(--radius-input);
+  color: #fff;
+  font: 600 26px var(--font-display);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  pointer-events: none;
+}
+
+.like {
+  left: var(--space-5);
+  background: var(--color-primary);
+  transform: rotate(-12deg);
+}
+
+.pass {
+  right: var(--space-5);
+  background: rgba(43, 32, 36, 0.75);
+  transform: rotate(12deg);
+}

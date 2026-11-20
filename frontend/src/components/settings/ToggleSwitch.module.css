@@ -1,0 +1,28 @@
+.track {
+  position: relative;
+  width: 56px;
+  height: 32px;
+  border-radius: var(--radius-full);
+  background: var(--color-border);
+  transition: background var(--duration-base) var(--ease);
+}
+
+.track[aria-checked='true'] {
+  background: var(--color-primary);
+}
+
+.thumb {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(43, 32, 36, 0.3);
+  transition: transform var(--duration-base) var(--ease);
+}
+
+.track[aria-checked='true'] .thumb {
+  transform: translateX(24px);
+}

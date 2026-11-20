@@ -1,0 +1,26 @@
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-4);
+  padding: var(--space-4) var(--space-5);
+}
+
+.text {
+  min-width: 0;
+}
+
+.title {
+  font-size: 20px;
+}
+
+.description {
+  margin-top: 2px;
+  color: var(--color-muted);
+  font-size: 14px;
+  overflow-wrap: anywhere;
+}
+
+.action {
+  flex: none;
+}

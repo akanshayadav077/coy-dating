@@ -1,0 +1,512 @@
+{
+  "users": [
+    {
+      "id": "u_000",
+      "name": "Sam",
+      "age": 24,
+      "photoUrl": "/portraits/hd-aarav.jpg",
+      "bio": "Here to meet someone worth texting back.",
+      "city": "Bengaluru",
+      "college": "IISc",
+      "interests": [
+        "Music",
+        "Travel",
+        "Coffee"
+      ]
+    },
+    {
+      "id": "u_001",
+      "name": "Aarav Sharma",
+      "age": 23,
+      "photoUrl": "/portraits/hd-rohan.jpg",
+      "bio": "Chasing sunsets, good coffee and meaningful conversations.",
+      "city": "Delhi",
+      "college": "Delhi University",
+      "interests": [
+        "Travel",
+        "Photography",
+        "Music",
+        "Coffee"
+      ]
+    },
+    {
+      "id": "u_002",
+      "name": "Ananya Verma",
+      "age": 22,
+      "photoUrl": "/portraits/hd-ananya.jpg",
+      "bio": "Book lover who believes every city has a story.",
+      "city": "Noida",
+      "college": "Amity University",
+      "interests": [
+        "Reading",
+        "Art",
+        "Travel",
+        "Movies"
+      ]
+    },
+    {
+      "id": "u_003",
+      "name": "Rohan Mehta",
+      "age": 24,
+      "photoUrl": "/portraits/hd-kabir.jpg",
+      "bio": "Software developer by day, guitarist by night.",
+      "city": "Gurugram",
+      "college": "DTU",
+      "interests": [
+        "Coding",
+        "Guitar",
+        "Fitness",
+        "Gaming"
+      ]
+    },
+    {
+      "id": "u_004",
+      "name": "Meera Kapoor",
+      "age": 23,
+      "photoUrl": "/portraits/hd-meera.jpg",
+      "bio": "Collecting memories, not things. Always up for a road trip.",
+      "city": "Mumbai",
+      "college": "St. Xavier's College",
+      "interests": [
+        "Road Trips",
+        "Fashion",
+        "Dance",
+        "Food"
+      ]
+    },
+    {
+      "id": "u_005",
+      "name": "Kabir Malhotra",
+      "age": 25,
+      "photoUrl": "/portraits/hd-aarav.jpg",
+      "bio": "Gym, football and discovering hidden food spots.",
+      "city": "Bengaluru",
+      "college": "Christ University",
+      "interests": [
+        "Football",
+        "Fitness",
+        "Food",
+        "Travel"
+      ]
+    },
+    {
+      "id": "u_006",
+      "name": "Isha Gupta",
+      "age": 21,
+      "photoUrl": "/portraits/hd-riya.jpg",
+      "bio": "Artist at heart. I find beauty in little things.",
+      "city": "Jaipur",
+      "college": "Manipal University Jaipur",
+      "interests": [
+        "Painting",
+        "Design",
+        "Music",
+        "Nature"
+      ]
+    },
+    {
+      "id": "u_007",
+      "name": "Aditya Rao",
+      "age": 24,
+      "photoUrl": "/portraits/hd-rohan.jpg",
+      "bio": "Startup enthusiast with a weakness for street food.",
+      "city": "Hyderabad",
+      "college": "IIIT Hyderabad",
+      "interests": [
+        "Startups",
+        "Technology",
+        "Food",
+        "Cricket"
+      ]
+    },
+    {
+      "id": "u_008",
+      "name": "Sana Khan",
+      "age": 22,
+      "photoUrl": "/portraits/hd-ananya.jpg",
+      "bio": "A little spontaneous, a little dramatic, always curious.",
+      "city": "Lucknow",
+      "college": "Lucknow University",
+      "interests": [
+        "Dancing",
+        "Fashion",
+        "Cooking",
+        "Travel"
+      ]
+    },
+    {
+      "id": "u_009",
+      "name": "Vihaan Singh",
+      "age": 23,
+      "photoUrl": "/portraits/hd-kabir.jpg",
+      "bio": "Mountain person trapped in a city lifestyle.",
+      "city": "Pune",
+      "college": "MIT World Peace University",
+      "interests": [
+        "Hiking",
+        "Photography",
+        "Cycling",
+        "Music"
+      ]
+    },
+    {
+      "id": "u_010",
+      "name": "Riya Malhotra",
+      "age": 24,
+      "photoUrl": "/portraits/hd-meera.jpg",
+      "bio": "Marketing professional who loves spontaneous plans.",
+      "city": "Delhi",
+      "college": "IP University",
+      "interests": [
+        "Marketing",
+        "Travel",
+        "Coffee",
+        "Movies"
+      ]
+    },
+    {
+      "id": "u_011",
+      "name": "Arjun Nair",
+      "age": 25,
+      "photoUrl": "/portraits/hd-aarav.jpg",
+      "bio": "Beach sunsets, indie music and long conversations.",
+      "city": "Kochi",
+      "college": "CUSAT",
+      "interests": [
+        "Music",
+        "Swimming",
+        "Travel",
+        "Cooking"
+      ]
+    },
+    {
+      "id": "u_012",
+      "name": "Tanya Sinha",
+      "age": 22,
+      "photoUrl": "/portraits/hd-riya.jpg",
+      "bio": "Designing my dream life one sketch at a time.",
+      "city": "Bengaluru",
+      "college": "NIFT Bengaluru",
+      "interests": [
+        "Design",
+        "Fashion",
+        "Art",
+        "Photography"
+      ]
+    },
+    {
+      "id": "u_013",
+      "name": "Dev Patel",
+      "age": 24,
+      "photoUrl": "/portraits/hd-rohan.jpg",
+      "bio": "Weekend explorer and full-time chai enthusiast.",
+      "city": "Ahmedabad",
+      "college": "Nirma University",
+      "interests": [
+        "Travel",
+        "Cricket",
+        "Food",
+        "Movies"
+      ]
+    },
+    {
+      "id": "u_014",
+      "name": "Kavya Iyer",
+      "age": 23,
+      "photoUrl": "/portraits/hd-ananya.jpg",
+      "bio": "Dancing through life and finding joy in music.",
+      "city": "Chennai",
+      "college": "Loyola College",
+      "interests": [
+        "Classical Dance",
+        "Music",
+        "Books",
+        "Yoga"
+      ]
+    },
+    {
+      "id": "u_015",
+      "name": "Reyansh Khanna",
+      "age": 26,
+      "photoUrl": "/portraits/hd-kabir.jpg",
+      "bio": "Building products, breaking routines and exploring places.",
+      "city": "Gurugram",
+      "college": "NSUT",
+      "interests": [
+        "Technology",
+        "Startups",
+        "Travel",
+        "Fitness"
+      ]
+    },
+    {
+      "id": "u_016",
+      "name": "Diya Agarwal",
+      "age": 21,
+      "photoUrl": "/portraits/hd-meera.jpg",
+      "bio": "Sunshine, poetry and a playlist for every mood.",
+      "city": "Indore",
+      "college": "IIM Indore",
+      "interests": [
+        "Poetry",
+        "Music",
+        "Reading",
+        "Photography"
+      ]
+    },
+    {
+      "id": "u_017",
+      "name": "Manav Joshi",
+      "age": 23,
+      "photoUrl": "/portraits/hd-aarav.jpg",
+      "bio": "Football fan, movie buff and amateur chef.",
+      "city": "Chandigarh",
+      "college": "Panjab University",
+      "interests": [
+        "Football",
+        "Cooking",
+        "Movies",
+        "Gaming"
+      ]
+    },
+    {
+      "id": "u_018",
+      "name": "Aditi Mishra",
+      "age": 24,
+      "photoUrl": "/portraits/hd-riya.jpg",
+      "bio": "Exploring new cafes and making everyday special.",
+      "city": "Kanpur",
+      "college": "IIT Kanpur",
+      "interests": [
+        "Cafes",
+        "Reading",
+        "Travel",
+        "Art"
+      ]
+    },
+    {
+      "id": "u_019",
+      "name": "Yash Bansal",
+      "age": 22,
+      "photoUrl": "/portraits/hd-rohan.jpg",
+      "bio": "Quiet initially, competitive at board games.",
+      "city": "Noida",
+      "college": "Jaypee Institute",
+      "interests": [
+        "Board Games",
+        "Chess",
+        "Coding",
+        "Music"
+      ]
+    },
+    {
+      "id": "u_020",
+      "name": "Naina Kapoor",
+      "age": 23,
+      "photoUrl": "/portraits/hd-ananya.jpg",
+      "bio": "Weekend treks and weekday dreams.",
+      "city": "Shimla",
+      "college": "Himachal Pradesh University",
+      "interests": [
+        "Hiking",
+        "Nature",
+        "Travel",
+        "Photography"
+      ]
+    },
+    {
+      "id": "u_021",
+      "name": "Siddharth Roy",
+      "age": 25,
+      "photoUrl": "/portraits/hd-kabir.jpg",
+      "bio": "Finance professional with an adventurous side.",
+      "city": "Mumbai",
+      "college": "NMIMS",
+      "interests": [
+        "Finance",
+        "Trekking",
+        "Movies",
+        "Food"
+      ]
+    },
+    {
+      "id": "u_022",
+      "name": "Myra Das",
+      "age": 22,
+      "photoUrl": "/portraits/hd-meera.jpg",
+      "bio": "Dreaming big, laughing loudly and living simply.",
+      "city": "Kolkata",
+      "college": "Jadavpur University",
+      "interests": [
+        "Writing",
+        "Music",
+        "Art",
+        "Travel"
+      ]
+    },
+    {
+      "id": "u_023",
+      "name": "Karan Oberoi",
+      "age": 24,
+      "photoUrl": "/portraits/hd-aarav.jpg",
+      "bio": "Photography is my excuse to travel everywhere.",
+      "city": "Jaipur",
+      "college": "Rajasthan University",
+      "interests": [
+        "Photography",
+        "Travel",
+        "History",
+        "Coffee"
+      ]
+    },
+    {
+      "id": "u_024",
+      "name": "Simran Kaur",
+      "age": 23,
+      "photoUrl": "/portraits/hd-riya.jpg",
+      "bio": "Love meaningful conversations and spontaneous dancing.",
+      "city": "Delhi",
+      "college": "Gargi College",
+      "interests": [
+        "Dance",
+        "Fitness",
+        "Fashion",
+        "Music"
+      ]
+    },
+    {
+      "id": "u_025",
+      "name": "Neil Fernandes",
+      "age": 26,
+      "photoUrl": "/portraits/hd-rohan.jpg",
+      "bio": "Music producer, coffee addict and night owl.",
+      "city": "Goa",
+      "college": "Goa University",
+      "interests": [
+        "Music",
+        "Guitar",
+        "Beach",
+        "Photography"
+      ]
+    },
+    {
+      "id": "u_026",
+      "name": "Pihu Sharma",
+      "age": 21,
+      "photoUrl": "/portraits/hd-ananya.jpg",
+      "bio": "A foodie who plans trips around restaurants.",
+      "city": "Pune",
+      "college": "Fergusson College",
+      "interests": [
+        "Food",
+        "Travel",
+        "Cooking",
+        "Movies"
+      ]
+    },
+    {
+      "id": "u_027",
+      "name": "Dhruv Arora",
+      "age": 24,
+      "photoUrl": "/portraits/hd-kabir.jpg",
+      "bio": "Entrepreneurial mind with a soft spot for dogs.",
+      "city": "Gurugram",
+      "college": "MDI Gurgaon",
+      "interests": [
+        "Business",
+        "Pets",
+        "Fitness",
+        "Travel"
+      ]
+    },
+    {
+      "id": "u_028",
+      "name": "Kiara Shah",
+      "age": 23,
+      "photoUrl": "/portraits/hd-meera.jpg",
+      "bio": "Collecting little adventures and beautiful memories.",
+      "city": "Surat",
+      "college": "SDJ International College",
+      "interests": [
+        "Fashion",
+        "Travel",
+        "Art",
+        "Shopping"
+      ]
+    },
+    {
+      "id": "u_029",
+      "name": "Atharv Mishra",
+      "age": 22,
+      "photoUrl": "/portraits/hd-aarav.jpg",
+      "bio": "Tech enthusiast who never skips a cricket match.",
+      "city": "Lucknow",
+      "college": "AKTU",
+      "interests": [
+        "Coding",
+        "Cricket",
+        "Gaming",
+        "Technology"
+      ]
+    },
+    {
+      "id": "u_030",
+      "name": "Sia Malhotra",
+      "age": 24,
+      "photoUrl": "/portraits/hd-riya.jpg",
+      "bio": "Finding my way through books, beaches and new cities.",
+      "city": "Bengaluru",
+      "college": "Mount Carmel College",
+      "interests": [
+        "Books",
+        "Beach",
+        "Travel",
+        "Yoga"
+      ]
+    }
+  ],
+  "likes": [
+    {
+      "fromUserId": "u_001",
+      "toUserId": "u_000"
+    },
+    {
+      "fromUserId": "u_003",
+      "toUserId": "u_000"
+    },
+    {
+      "fromUserId": "u_005",
+      "toUserId": "u_000"
+    },
+    {
+      "fromUserId": "u_008",
+      "toUserId": "u_000"
+    },
+    {
+      "fromUserId": "u_010",
+      "toUserId": "u_000"
+    },
+    {
+      "fromUserId": "u_014",
+      "toUserId": "u_000"
+    },
+    {
+      "fromUserId": "u_018",
+      "toUserId": "u_000"
+    },
+    {
+      "fromUserId": "u_022",
+      "toUserId": "u_000"
+    }
+  ],
+  "swipes": [],
+  "matches": [],
+  "account": {
+    "phone": null,
+    "firstName": null,
+    "email": null,
+    "alertsEnabled": true,
+    "referralCode": null
+  },
+  "messages": []
+}

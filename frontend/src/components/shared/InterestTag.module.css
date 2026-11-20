@@ -1,0 +1,8 @@
+.tag {
+  padding: var(--space-1) var(--space-3);
+  border-radius: var(--radius-full);
+  background: var(--color-primary-tint);
+  color: var(--color-primary-hover);
+  font-size: 12px;
+  font-weight: 500;
+}

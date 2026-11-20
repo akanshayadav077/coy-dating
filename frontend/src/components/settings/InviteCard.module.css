@@ -1,0 +1,56 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  padding: var(--space-5);
+  border: 2px solid var(--color-aubergine);
+  border-radius: var(--radius-card);
+  background: var(--color-primary-tint);
+  box-shadow: 4px 4px 0 var(--color-aubergine);
+}
+
+.title {
+  font-size: 28px;
+}
+
+.text {
+  margin-top: calc(var(--space-2) * -1);
+  color: var(--color-muted);
+}
+
+.codeBox {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  padding: var(--space-4);
+  border: 2px solid var(--color-aubergine);
+  border-radius: var(--radius-card);
+  background: var(--color-surface);
+}
+
+.label {
+  color: var(--color-muted);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.code {
+  color: var(--color-primary);
+  font: 600 36px var(--font-display);
+  letter-spacing: 0.08em;
+}
+
+.link {
+  margin-bottom: var(--space-3);
+  color: var(--color-muted);
+  font-size: 13px;
+  overflow-wrap: anywhere;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+}
