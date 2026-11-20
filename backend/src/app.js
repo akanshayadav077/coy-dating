@@ -34,6 +34,9 @@ export function createApp({ dataFile = config.dataFile } = {}) {
   const app = express();
   app.use(cors({ origin: config.corsOrigin }));
   app.use(express.json());
+  // Public Vercel path is /api/* (service receives the original path).
+  // Root mount keeps local npm start / tests working without the prefix.
+  app.use('/api', routes);
   app.use(routes);
   app.use(notFound);
   app.use(errorHandler);

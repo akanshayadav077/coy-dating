@@ -1,4 +1,6 @@
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL ?? 'http://localhost:4000';
+// Same-origin /api on Vercel (and via the Vite proxy locally). Override with
+// VITE_API_BASE_URL when talking straight to the Express port (e.g. http://localhost:4000).
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL ?? '/api';
 
 export class ApiError extends Error {
   constructor(status, code, message) {
